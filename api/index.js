@@ -7,6 +7,6 @@ export default function handler(req, res) {
   } else {
     res
       .status(200)
-      .send("Shopify Kickstarter App is running. No frontend installed.");
+      .send("Shopify Kickstarter App is running. No frontend installed API.");
   }
 }
